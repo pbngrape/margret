@@ -1,51 +1,40 @@
-<!DOCTYPE HTML>
-
 <html>
-
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Your Website</title>
-</head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home/reset.css' %}" />
+    <link rel="stylesheet" href="{% static 'home/style.css' %}" />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>Your menu</li>
-            </ul>
-        </nav>
+      <span>Title</span>
+      <nav>
+        <ul>
+          <li>hot stuff</li>
+          <li>cool stuff</li>
+          <li>rough stuff</li>
+          <li>not stuff</li>
+          <li>bluff stuff</li>
+        </ul>
+      </nav>
     </header>
-    
-    <section>
-    
-        <article>
-            <header>
-                <h2>Article title</h2>
-                <p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
-            </header>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-        </article>
-        
-        <article>
-            <header>
-                <h2>Article title</h2>
-                <p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
-            </header>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-        </article>
-        
-    </section>
-
-    <aside>
-        <h2>About section</h2>
-        <p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-    </aside>
-
-    <footer>
-        <p>Copyright 2009 Your name</p>
-    </footer>
-
-</body>
-
+    <main>
+      <h1>Projects</h1>
+      <div id="tabs">
+        <div><h2>Wood Working</h2></div>
+        <div><h2>3D Printing</h2></div>
+        <div><h2>Baking</h2></div>
+        <div><h2>Metal Casting</h2></div>
+        <div><h2>CAD Design</h2></div>
+        <div><h2>Coding</h2></div>
+        <div><h2>Other stuff</h2></div>
+      </div>
+      <article>
+        <H2>About dis</H2>
+        <p>yeeee boi</p>
+      </article>
+    </main>
+  </body>
 </html>

@@ -1,0 +1,32 @@
+main {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+#tabs {
+  display: flex;
+  justify-content: center;
+}
+
+#tabs div {
+  border: 1px solid #000000;
+  align-items: stretch;
+  height: 400px;
+  width: 10%;
+}
+#tabs div:hover {
+  flex-grow: 2;
+}
+
+#Tabs div h2 {
+  transform: rotate(90deg) translateY(-50%);
+  transform-origin: bottom left;
+  width: 250px;
+  font-size: 40px;
+}
+
+#tabs div:hover h2 {
+  transform: none;
+  padding: 8px;
+}
